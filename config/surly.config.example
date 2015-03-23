@@ -1,0 +1,12 @@
+development:
+  url_base: 'http://localhost:9393'
+  dm_scheme: sqlite3
+  dm_database: surly-dev.db
+test:
+  url_base: 'http://localhost:9393'
+  dm_scheme: sqlite3
+  dm_database: surly-test.db
+production:
+  url_base: 'http://localhost:9393'
+  dm_scheme: sqlite3
+  dm_database: surly-prod.db
